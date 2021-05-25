@@ -1,0 +1,26 @@
+footer{
+  background-color: #E2DCE3;
+  width: 100vw;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  flex: 1;
+}
+.footerlogo{
+  width: 80px;
+  margin-left: 20px;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+h1.footer{
+  font-size: xx-small;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-left: 40px;
+  line-height: 80px;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}

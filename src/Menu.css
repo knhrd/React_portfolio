@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: #e4aecf;
+}
+
+Button.menu{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    border:1px solid rgba(158, 123, 150, 0.705);
+    color: var(--white);
+    padding: .5rem 1rem;
+  }
+
+  #simple-menu{
+    background: rgba(172, 160, 169, 0.671);
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    margin: 0px;
+  }
+  
+  h4{
+    text-align: center;
+    margin: 20px;
+    font-size: x-large;
+  }

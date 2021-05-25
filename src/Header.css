@@ -1,0 +1,25 @@
+/*header*/
+header{
+  background-color: #E2DCE3;
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 10;
+}
+.headerlogo{
+  width: 80px;
+  margin-left: 0px;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+h1.header{
+  font-size: xx-small;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-left: 40px;
+  line-height: 80px;
+}

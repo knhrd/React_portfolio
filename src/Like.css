@@ -1,0 +1,239 @@
+div.like{
+    background-color: #fff7f7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 100vw;
+    height: 680px;
+    border-bottom: 2px solid #E2DCE3;
+    
+}
+ul.like{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+
+/* Cafe */
+div.cafe{
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #E2DCE3;
+    background-position: center;
+    height: 250px;
+    width: 80%;
+    text-align: center;
+    list-style: none;
+    list-style-type: none;
+    
+}
+img.cafe{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+} 
+ul.sabcafe{
+    margin: 30px 30px 30px 30px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 10px;
+    grid-template-rows: 250px 250px 250px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+div.sabcafe{
+    width: 900px;
+    height: 750px;
+}
+img.sabcafe{
+    height: 250px;
+    width: 250px;
+}
+ul.sabcafe{
+    width: 830px;
+    height: 570px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Cooking */
+div.cooking{
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #E2DCE3;
+    background-position: center;
+    height: 250px;
+    width: 80%;
+    text-align: center;
+    list-style: none;
+    list-style-type: none;
+}
+img.cooking{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+} 
+ul.sabcooking{
+    margin: 30px 30px 30px 30px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 10px;
+    grid-template-rows: 250px 250px 250px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+div.sabcooking{
+    width: 900px;
+    height: 750px;
+}
+img.sabcooking{
+    height: 250px;
+    width: 250px;
+}
+ul.sabcooking{
+    width: 830px;
+    height: 570px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Izakaya */
+div.izakaya{
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #E2DCE3;
+    background-position: center;
+    height: 250px;
+    width: 80%;
+    text-align: center;
+    list-style: none;
+    list-style-type: none;
+}
+img.izakaya{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+} 
+ul.sabizakaya{
+    margin: 30px 30px 30px 30px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 10px;
+    grid-template-rows: 250px 250px 250px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+div.sabizakaya{
+    width: 900px;
+    height: 750px;
+}
+img.sabizakaya{
+    height: 250px;
+    width: 250px;
+}
+ul.sabizakaya{
+    width: 830px;
+    height: 570px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Live */
+div.live{
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #E2DCE3;
+    background-position: center;
+    height: 250px;
+    width: 80%;
+    text-align: center;
+    list-style: none;
+    list-style-type: none;
+}
+img.live{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+} 
+ul.sablive{
+    margin: 30px 30px 30px 30px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 10px;
+    grid-template-rows: 250px 250px 250px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+div.sablive{
+    width: 900px;
+    height: 750px;
+}
+img.sablive{
+    height: 250px;
+    width: 250px;
+}
+ul.sablive{
+    width: 830px;
+    height: 570px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@keyframes hover-flash {
+    0%{
+        opacity: .8;
+    }
+    100%{
+
+        opacity: 1;
+    }
+}
+
+h3{
+    font-family: 'Sofia';
+    font-size: xx-large;
+    padding: 30px 30px 0px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 60%;
+}
+h4{
+    font-family: 'sofia';
+    font-size: xx-large;
+}
+
+p{
+    font-size: larger;
+    margin: 0px;
+    padding: 10px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
