@@ -30,8 +30,8 @@ export default function Live() {
   return (
     <React.Fragment>
         <div class="live">
-          <p>Live</p>
-          <img className="live" src={`${process.env.PUBLIC_URL}/../pic/live.jpg`} onMouseOver={handleClick}/>
+          <h4>Live</h4>
+          <img className="live" src={`${process.env.PUBLIC_URL}/../pic/live.jpg`} onClick={handleClick}/>
         </div>
       <Menu 
         id="sablive"
@@ -42,7 +42,7 @@ export default function Live() {
         onClose={handleClose}
       >
         <div className="sablive">
-        <h4>Live</h4>
+        <h5>Live</h5>
         <ul className="sablive">
         <li><MenuItem className={classes.root} onClick={handleClose}><img className="sablive" src={`${process.env.PUBLIC_URL}/../pic/live.jpg`} /></MenuItem></li>
         <li><MenuItem className={classes.root} onClick={handleClose}><img className="sablive" src={`${process.env.PUBLIC_URL}/../pic/live1.jpg`} /></MenuItem></li>

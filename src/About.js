@@ -5,7 +5,7 @@ import "./About.css";
 const About = () => {
     return(
         <Route>
-            <div className="about" id="about">
+            <div className="about" id="about" >
             <h3>About me</h3>
             <ul className="about">
                 <li>Name: 原田佳奈</li>

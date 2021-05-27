@@ -30,19 +30,18 @@ export default function Izakaya() {
   return (
     <React.Fragment>
         <div class="izakaya">
-          <p>Izakaya</p>
-          <img className="izakaya" src={`${process.env.PUBLIC_URL}/../pic/izakaya.jpg`} onMouseOver={handleClick}/>
+          <h4>Izakaya</h4>
+          <img className="izakaya" src={`${process.env.PUBLIC_URL}/../pic/izakaya.jpg`} onClick={handleClick}/>
         </div>
       <Menu 
         id="sabizakaya"
-        className="sabizakaya"
         anchorEl={anchorEl}
         keepMounted
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
         <div className="sabizakaya">
-        <h4>Izakaya</h4>
+        <h5>Izakaya</h5>
         <ul className="sabizakaya">
         <li><MenuItem className={classes.root} onClick={handleClose}><img className="sabizakaya" src={`${process.env.PUBLIC_URL}/../pic/izakaya.jpg`} /></MenuItem></li>
         <li><MenuItem className={classes.root} onClick={handleClose}><img className="sabizakaya" src={`${process.env.PUBLIC_URL}/../pic/izakaya1.jpg`} /></MenuItem></li>
