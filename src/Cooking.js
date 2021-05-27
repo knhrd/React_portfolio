@@ -30,8 +30,8 @@ export default function Cooking() {
   return (
     <React.Fragment>
         <div class="cooking">
-          <p>Cooking</p>
-          <img className="cooking" src={`${process.env.PUBLIC_URL}/../pic/cooking.jpg`} onMouseOver={handleClick}/>
+          <h4>Cooking</h4>
+          <img className="cooking" src={`${process.env.PUBLIC_URL}/../pic/cooking.jpg`} onClick={handleClick}/>
         </div>
       <Menu 
         id="sabcooking"
@@ -41,8 +41,8 @@ export default function Cooking() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <div className="sabcafe">
-        <h4>Cooking</h4>
+        <div className="sabcooking">
+        <h5>Cooking</h5>
         <ul className="sabcooking">
         <li><MenuItem className={classes.root} onClick={handleClose}><img className="sabcooking" src={`${process.env.PUBLIC_URL}/../pic/cooking.jpg`} /></MenuItem></li>
         <li><MenuItem className={classes.root} onClick={handleClose}><img className="sabcooking" src={`${process.env.PUBLIC_URL}/../pic/cooking1.jpg`} /></MenuItem></li>

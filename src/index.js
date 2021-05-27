@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './Header';
+import Name from './Name'
 import About from './About';
 import Skill from './Skill';
 import Like from './Like';
@@ -17,7 +18,7 @@ const hist = createBrowserHistory();
 ReactDOM.render(
   <Router history={hist}>
     <Header />
-    <h2>Kana Harada</h2>
+    <Name />
     <About />
     <Skill />
     <Like />

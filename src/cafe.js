@@ -30,19 +30,18 @@ export default function Cafe() {
   return (
     <React.Fragment>
         <div class="cafe">
-          <p>Cafe</p>
-          <img className="cafe" src={`${process.env.PUBLIC_URL}/../pic/cafe.jpg`} onMouseOver={handleClick}/>
+          <h4>Cafe</h4>
+          <img className="cafe" src={`${process.env.PUBLIC_URL}/../pic/cafe.jpg`} onClick={handleClick}/>
         </div>
       <Menu 
         id="sabcafe"
-        className="sabcafe"
         anchorEl={anchorEl}
         keepMounted
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
         <div className="sabcafe">
-        <h4>Cafe</h4>
+        <h5>Cafe</h5>
         <ul className="sabcafe">
         <li><MenuItem className={classes.root} onClick={handleClose}><img className="sabcafe" src={`${process.env.PUBLIC_URL}/../pic/cafe.jpg`} /></MenuItem></li>
         <li><MenuItem className={classes.root} onClick={handleClose}><img className="sabcafe" src={`${process.env.PUBLIC_URL}/../pic/cafe1.jpg`} /></MenuItem></li>

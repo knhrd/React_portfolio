@@ -41,7 +41,7 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <h4>●MENU●</h4> 
+        <p className="menu">-MENU-</p> 
         <div className="menu">
         <ul>
           <li><a href="#about"><MenuItem className={classes.root} onClick={handleClose}>About me</MenuItem></a></li>

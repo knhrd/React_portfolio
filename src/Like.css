@@ -1,18 +1,21 @@
 div.like{
     background-color: #fff7f7;
+    background-position: top center;
+    background-size: cover;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0%;
-    margin-bottom: 0%;
     width: 100vw;
-    height: 680px;
+    height: auto;
     border-bottom: 2px solid #E2DCE3;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     
 }
 ul.like{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,50%);
+    grid-template-rows: repeat(2,1fr);
     width: 60%;
     height: 60%;
     margin-left: auto;
@@ -24,46 +27,48 @@ ul.like{
 div.cafe{
     grid-template-columns: 1fr 1fr;
     padding: 0px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto; 
     background-color: #E2DCE3;
-    background-position: center;
-    height: 250px;
+    height: 80%;
     width: 80%;
     text-align: center;
     list-style: none;
     list-style-type: none;
-    
 }
 img.cafe{
     width: 100%;
-    height: 170px;
+    height: 80%;
     text-align: center;
 } 
 ul.sabcafe{
-    margin: 30px 30px 30px 30px;
+    padding: 0px;
+    margin: 0px;
     display: grid;
-    grid-template-columns: 250px 250px 250px;
-    gap: 10px;
-    grid-template-rows: 250px 250px 250px;
-    overflow: hidden;
+    gap: 1rm;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-template-rows: repeat(6,45%);
     position: absolute;
-    z-index: 1;
+    list-style: none;
+    width: 100%;
+    height: 100%
 }
 div.sabcafe{
     width: 900px;
-    height: 750px;
+    height: 550px;
 }
 img.sabcafe{
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10%;
+    padding: 0px; 
+    margin: 0px;  
 }
-ul.sabcafe{
-    width: 830px;
-    height: 570px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#sabcafe{
+    width: auto;
+    height: auto;
 }
 
 /* Cooking */
@@ -74,8 +79,7 @@ div.cooking{
     margin-left: auto;
     margin-right: auto; 
     background-color: #E2DCE3;
-    background-position: center;
-    height: 250px;
+    height: 80%;
     width: 80%;
     text-align: center;
     list-style: none;
@@ -83,32 +87,34 @@ div.cooking{
 }
 img.cooking{
     width: 100%;
-    height: 170px;
+    height: 80%;
     text-align: center;
 } 
 ul.sabcooking{
-    margin: 30px 30px 30px 30px;
+    padding: 0px;
+    margin: 0px;
     display: grid;
-    grid-template-columns: 250px 250px 250px;
-    gap: 10px;
-    grid-template-rows: 250px 250px 250px;
-    overflow: hidden;
+    gap: 1rm;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-template-rows: repeat(6,45%);
     position: absolute;
-    z-index: 1;
+    list-style: none;
+    width: 100%;
+    height: 100%;
 }
 div.sabcooking{
     width: 900px;
-    height: 750px;
+    height: 550px;
 }
 img.sabcooking{
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10%;
+    padding: 0px
 }
-ul.sabcooking{
-    width: 830px;
-    height: 570px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#sabcooking{
+    width: auto;
+    height: auto;
 }
 
 
@@ -120,8 +126,7 @@ div.izakaya{
     margin-left: auto;
     margin-right: auto; 
     background-color: #E2DCE3;
-    background-position: center;
-    height: 250px;
+    height: 80%;
     width: 80%;
     text-align: center;
     list-style: none;
@@ -129,32 +134,34 @@ div.izakaya{
 }
 img.izakaya{
     width: 100%;
-    height: 170px;
+    height: 80%;
     text-align: center;
 } 
 ul.sabizakaya{
-    margin: 30px 30px 30px 30px;
+    padding: 0px;
+    margin: 0px;
     display: grid;
-    grid-template-columns: 250px 250px 250px;
-    gap: 10px;
-    grid-template-rows: 250px 250px 250px;
-    overflow: hidden;
+    gap: 1rm;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-template-rows: repeat(6,45%);
     position: absolute;
-    z-index: 1;
+    list-style: none;
+    width: 100%;
+    height: 100%;
 }
 div.sabizakaya{
     width: 900px;
-    height: 750px;
+    height: 550px;
 }
 img.sabizakaya{
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10%;
+    padding: 0px
 }
-ul.sabizakaya{
-    width: 830px;
-    height: 570px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#sabizakaya{
+    width: auto;
+    height: auto;
 }
 
 /* Live */
@@ -165,8 +172,7 @@ div.live{
     margin-left: auto;
     margin-right: auto; 
     background-color: #E2DCE3;
-    background-position: center;
-    height: 250px;
+    height: 80%;
     width: 80%;
     text-align: center;
     list-style: none;
@@ -174,32 +180,34 @@ div.live{
 }
 img.live{
     width: 100%;
-    height: 170px;
+    height: 80%;
     text-align: center;
 } 
 ul.sablive{
-    margin: 30px 30px 30px 30px;
+    padding: 0px;
+    margin: 0px;
     display: grid;
-    grid-template-columns: 250px 250px 250px;
-    gap: 10px;
-    grid-template-rows: 250px 250px 250px;
-    overflow: hidden;
+    gap: 1rm;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-template-rows: repeat(6,45%);
     position: absolute;
-    z-index: 1;
+    list-style: none;
+    width: 100%;
+    height: 100%;
 }
 div.sablive{
     width: 900px;
-    height: 750px;
+    height: 550px;
 }
 img.sablive{
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10%;
+    padding: 0px
 }
-ul.sablive{
-    width: 830px;
-    height: 570px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#sablive{
+    width: auto;
+    height: auto;
 }
 
 
@@ -213,25 +221,22 @@ ul.sablive{
     }
 }
 
-h3{
-    font-family: 'Sofia';
-    font-size: xx-large;
-    padding: 30px 30px 0px 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    width: 60%;
-}
 h4{
-    font-family: 'sofia';
+    font-size: small;
+    margin: 0px;
+    padding: 5%;
+    text-align: center;
+}
+h5{
     font-size: xx-large;
+    text-align: left;
+    margin-left: 20px;
+}
+li{
+    margin: 0px;
+    padding: 0px;
 }
 
-p{
-    font-size: larger;
-    margin: 0px;
-    padding: 10px;
-}
 
 *{
     padding: 0px;
